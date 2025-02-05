@@ -1,0 +1,587 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+body{
+    overflow-x: hidden;
+    background-color: rgba(255, 255, 255, 1);
+}
+nav{
+    display: flex;
+    margin: 20px;
+    justify-content: space-around;
+}
+.elements{
+    display: flex;
+    gap: 50px;
+}
+.links{
+    text-decoration: none;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#trial{
+    background-color: white;
+    border: 1px solid rgba(114, 46, 209, 1);
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* padding-bottom: 0px; */
+    border-radius: 25px;
+    margin-top: 0px;
+    text-decoration: none;
+    height: fit-content;
+    color: rgba(114, 46, 209, 1);
+    
+}
+#trial:hover{
+    background-color: rgba(114, 46, 209, 1);
+    color: white;
+}
+
+#shadowshape{
+    margin-top: 500px;
+    height: 75vh;
+    width: 100vw;
+    /* border: 2px solid black; */
+    /* background-image: linear-gradient( rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%); */
+    /* background-color: rgba(226, 241, 255, 1); */
+    background-color: rgba(0, 0, 0, 0.5);
+    clip-path: polygon(-2% -346%, 123% 72%, -1% 100%, -48% 149%);
+    /* box-shadow: 10px 10px; */
+}
+#shape{
+    height: 75vh;
+    width: 100vw;
+    /* border: 2px solid black; */
+    background-image: linear-gradient( rgba(255, 255, 255, 1) 0%, rgba(226, 241, 255, 1) 100%);
+    /* background-color: rgba(226, 241, 255, 1); */
+    clip-path: polygon(-2% -346%, 123% 72%, -1% 100%, -48% 149%);
+    box-shadow: 10px 10px;
+     
+}
+#maincontent{
+    display: flex;
+    justify-content: space-around;
+    /* margin: 40px 80px; */
+    align-items: center;
+    gap: 0px;
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+#content1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+}
+#div1{
+    display: flex;
+    border: 1px solid white;
+    background-color: rgba(247, 241, 255, 1);
+    border-radius: 20px;
+    width: 240px;
+    padding: 8px 16px;
+    color: rgba(114, 46, 209, 1);
+}
+#div2{
+    font-size: 2rem;
+    /* height: 200px; */
+    width: 420px;
+    /* border: 2px solid black; */
+    margin-top: 20px;
+}
+#div3{
+    width: 400px;
+    /* border: 2px solid black; */
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 1);
+    opacity: 50%;
+}
+/* #div4{
+
+    width: 400px} */
+
+#freetrbut{
+    border: 1px solid  rgba(114, 46, 209, 1);
+    margin: 100px 24px;
+    padding: 12px 24px;
+    border-radius: 23px;
+    color: white;
+    background-color:  rgba(114, 46, 209, 1);
+}
+#freetrbut:hover{
+    background-color: white;
+    color: rgba(114, 46, 209, 1);
+    cursor: pointer;
+}
+#content2{
+    margin-right : 200px;
+}
+#learnbut{
+    border: 1px solid  white;
+    margin: 100px 24px;
+    padding: 12px 24px;
+    border-radius: 23px;
+    color: rgba(114, 46, 209, 1);
+    background-color: white; 
+
+}
+#learnbut:hover{
+    background-color:  rgba(114, 46, 209, 1);
+    color: white;
+    cursor: pointer;
+}
+#secondsection{
+    margin-top: 20px;
+    /* border: 2px solid black; */
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#secondcont{
+    /* border: 2px solid red; */
+    height: 400px;
+    width: 900px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#divv1{
+    display: flex;
+    background-color: rgba(247, 241, 255, 1);
+    padding: 8px 16px;
+    border-radius: 20px;
+    position: relative;
+    bottom: 30px;
+    color: rgba(114, 46, 209, 1);
+}
+
+#divv2{
+    font-weight: 700;
+font-size: 32px;
+}
+#divv3{
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 1);
+    opacity: 50%;
+    font-size: 16px;
+    height: 50px;
+    width: 650px;
+    text-align: center;
+}
+#divv4{
+    /* border: 2px solid black; */
+    display: flex;
+    gap: 16px;
+}
+.cards{
+    width: 307px;
+    height: 170px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#animated{
+    /* height: 100vh;
+     */
+     height: auto;
+    width: 100vw;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: space-around;
+    justify-content: center;
+    gap: 100px;
+}
+.box1{
+    height: 500px;
+    width: 500px;
+    border: 2px solid rgba(238, 223, 249, 1);
+    border-radius: 50%;
+    /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0 70%); */
+    /* clip-path: circle(); */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-content: space-between;
+
+    animation-name: leftRotate;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    /* position: ab; */
+}
+
+@keyframes leftRotate {
+    0%{
+
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes rightRotate {
+    0%{
+
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+
+
+
+.box2{
+    height: 300px;
+    width: 300px;
+    border: 2px solid rgba(238, 223, 249, 1);
+    border-radius: 50%;
+    /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0 70%); */
+    /* clip-path: circle(); */
+    /* /* display: grid; */
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ gap: 20px;
+
+ animation-name: rightRotate;
+ animation-duration: 30s;
+ animation-iteration-count: infinite;
+ animation-timing-function: linear;
+ position: relative;
+ bottom: 400px;
+ right: -100px;
+ 
+
+}
+
+.child{
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    /* background-color: lime;
+    border: 2px solid red; */
+    font-size: 30px;
+    
+    text-align: center;
+}
+
+#child1{
+    position: relative;
+    top: 380px;
+    left: 30px;
+    ;
+
+}
+#child2{
+    position: relative;
+    top: -30px;
+}
+#child3{
+    position: relative;
+    top: 350px;
+    left: 65px;
+}
+#child4{
+    position: relative;
+    bottom: 00px;
+    left: -130px;
+    /* right: 100px; */
+}
+#child5{
+    position: relative;
+    bottom: 140px;
+    right: 140px;
+}
+#innerchild1{
+    position: relative;
+    top: -40px;
+    left: -30px;
+}
+#innerchild2{
+    position: relative;
+    top: 120px;
+    right: 50px;
+}
+#innerchild3{
+    position: relative;
+    top: -40px;
+    right: 100px;
+}
+#rightsection{
+    height: 300px;
+    width: 474px;
+    
+    position: relative;
+    top: 100px;
+    right: -50px;
+}
+.ckt{
+    width: 200px;
+    position: relative;
+    top: 70px;
+}
+
+#dataDriven{
+    height: auto;
+    width: 100vw;
+    margin-bottom: 50px;
+    display: flex;
+}
+
+#leftwritten{
+    width: 60%;
+   
+    /* position: relative; */
+    margin-left: 200px;
+}
+#Rightphoto{
+    width: 40%;
+ 
+    position: relative;
+    right: 200px;
+}
+.compass{
+    width: 260px;
+    position: relative;
+    top: 70px;
+}
+#polygon2{
+    height: 100vh;
+    width: 100vw;
+    background-color: saddlebrown;
+    clip-path: polygon(309% -98%, 323% 26%, 22% 94%, -259% 174%);
+}
+
+#secondanimation{
+    display: flex;
+    position: relative;
+    top: 100px
+}
+
+.ubox{
+    width: 500px;
+    /* border: 2px solid black; */
+    background-color: rgb(255, 255, 255);
+    height: 200px;
+
+}
+
+.animation{
+    
+    height: 400px;
+    width: 500px;
+    /* border: 2px solid black; */
+    /* background:linear-gradient(pink,white,purple,blue,lime,aqua,red); */
+    position: absolute;
+    z-index: -10;
+    /* top: 100px; */
+    transform: translateY(200px);
+    animation-name: slideUp;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    /* animation-direction: alternate; */
+    animation-timing-function: linear;
+}
+
+.leftbox{
+    height: 600px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+    left: 200px;
+}
+
+.vertical {
+    height: 100px;
+    width: 2px;
+    /* border: 2px solid black; */
+    background-color: rgb(98, 98, 247);
+  }
+  .rightside{
+      transform: skewX(-40deg);
+      position: relative;
+      right: 100px;
+  }
+  .horizontal {
+    height: 2px;
+    width: 55px;
+    /* border: 2px solid black; */
+    background-color: rgb(98, 98, 247);
+  
+  }
+  
+  .dabbe {
+    position: absolute;
+    z-index: 1;
+    
+  
+    display: flex;
+  }
+  .dabba {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(255, 255, 255);
+    /* transform: skewX(20deg); */
+    border-radius: 10px;
+    border: 2px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 10px 10px 5px lightblue;
+  
+  }
+  
+  .dabba1 {
+    position: relative;
+    top: -320px;
+    left: -25px;
+  }
+  .dabba2 {
+    position: relative;
+    top: -320px;
+    left: -15px;
+  }
+  .dabba3 {
+    position: relative;
+    top: -320px;
+    left: -5px;
+  }
+  .dabba4 {
+    position: relative;
+    top: -140px;
+    right: 115px;
+  }
+  
+  .dabba5 {
+    position: relative;
+    right: 165px;
+  }
+  
+  .light {
+      border-radius: 2px;
+    width: 100%;
+    height: 20%;
+    background-color: blue;
+    /* margin-top: 75px; */
+    z-index: -10;
+    transform: translateY(0px);
+    animation-name: slideU;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+  }
+  
+  .light1 {
+      border-radius: 2px;
+  
+      width: 20%;
+    height: 100%;
+    margin-left: 50px;
+    background-color: blue;
+    transform: translateX(50px);
+    animation-name: slideL;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+  
+  }
+
+  #leftmoving{
+    transform: translateX(100px);
+    animation-name: slideLeft;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+  }
+  
+  .light2{
+      border-radius: 2px;
+  
+      width: 20%;
+    height: 100%;
+  
+    background-color: blue;
+    transform: translateX(50px);
+    animation-name: slideR;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+  }
+  @keyframes slideR {
+      0%{
+          transform: translateX(0px);
+      }
+      100%{
+          transform: translateX(48px);
+      }
+      
+  }
+  @keyframes slideL {
+      0%{
+          transform: translateX(0px);
+      }
+      100%{
+          transform: translateX(-48px);
+      }
+  }
+  @keyframes slideLeft {
+    0%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(-208px);
+    }
+}
+  
+  @keyframes slideU {
+    0% {
+      transform: translateY(75px);
+      /* top: 0; */
+    }
+  
+    100% {
+      top: 10px;
+      /* transform: translateY(-100px); */
+    }
+  }
+  
+
+
+@keyframes slideUp {
+    0%{
+        /* transform: translateY(0px); */
+        top: 0;
+    }
+    
+    100%{
+        top: -200px;
+        /* transform: translateY(-100px); */
+
+    }
+}
+
+ul li:hover{
+    color: blueviolet;
+    cursor: pointer;
+
+}

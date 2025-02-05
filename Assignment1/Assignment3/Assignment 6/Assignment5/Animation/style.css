@@ -1,0 +1,144 @@
+.page {
+    display: flex;
+    height: 100vh;
+    width: 98vw;
+    background-color: blueviolet;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .vertical {
+    height: 100px;
+    width: 2px;
+    /* border: 2px solid black; */
+    background-color: rgb(98, 98, 247);
+  }
+  .rightside{
+      transform: skewX(-40deg);
+      position: relative;
+      right: 100px;
+  }
+  .horizontal {
+    height: 2px;
+    width: 55px;
+    /* border: 2px solid black; */
+    background-color: rgb(98, 98, 247);
+  
+  }
+  
+  .dabbe {
+    position: absolute;
+    z-index: 1;
+    
+  
+    display: flex;
+  }
+  .dabba {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(255, 255, 255);
+    /* transform: skewX(20deg); */
+    border-radius: 10px;
+  
+  }
+  
+  .dabba1 {
+    position: relative;
+    top: -320px;
+    left: -25px;
+  }
+  .dabba2 {
+    position: relative;
+    top: -320px;
+    left: -15px;
+  }
+  .dabba3 {
+    position: relative;
+    top: -320px;
+    left: -5px;
+  }
+  .dabba4 {
+    position: relative;
+    top: -140px;
+    right: 115px;
+  }
+  
+  .dabba5 {
+    position: relative;
+    right: 165px;
+  }
+  
+  .light {
+      border-radius: 2px;
+    width: 100%;
+    height: 20%;
+    background-color: blue;
+    /* margin-top: 75px; */
+    z-index: -10;
+    transform: translateY(0px);
+    animation-name: slideUp;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+  }
+  
+  .light1 {
+      border-radius: 2px;
+  
+      width: 20%;
+    height: 100%;
+    margin-left: 50px;
+    background-color: blue;
+    transform: translateX(50px);
+    animation-name: slideL;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+  
+  }
+  
+  .light2{
+      border-radius: 2px;
+  
+      width: 20%;
+    height: 100%;
+  
+    background-color: blue;
+    transform: translateX(50px);
+    animation-name: slideR;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+  }
+  @keyframes slideR {
+      0%{
+          transform: translateX(0px);
+      }
+      100%{
+          transform: translateX(48px);
+      }
+      
+  }
+  @keyframes slideL {
+      0%{
+          transform: translateX(0px);
+      }
+      100%{
+          transform: translateX(-48px);
+      }
+  }
+  
+  
+  @keyframes slideUp {
+    0% {
+      transform: translateY(75px);
+      /* top: 0; */
+    }
+  
+    100% {
+      top: 10px;
+      /* transform: translateY(-100px); */
+    }
+  }
